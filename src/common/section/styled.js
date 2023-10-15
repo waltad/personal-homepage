@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Wrapper = styled.section`
   width: 63%;
-
+  display: grid;
 `;
 
 export const Image = styled.img`
