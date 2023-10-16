@@ -1,14 +1,8 @@
-import Section from './common/section';
-import myPhoto from './images/myPhoto.jpg'
+import HomePage from './features/homePage';
 
 function App() {
   return (
-    <>
-      <Section
-        photo={myPhoto}
-        title="Tadeusz Waluga"
-      />
-    </>
+    <HomePage />
   );
 }
 
