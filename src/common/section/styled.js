@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Wrapper = styled.section`
   width: 63%;
-  display: grid;
+  display: flex;
 `;
 
 export const Image = styled.img`
@@ -17,4 +17,10 @@ export const Title = styled.h1`
   line-height: 1.2;
   letter-spacing: 0.05em;
   text-align: left;
+`;
+
+export const Button = styled.button`
+  border: none;
+  background-color: transparent;
+  height: 20px;
 `;
