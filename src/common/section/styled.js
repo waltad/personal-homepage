@@ -23,4 +23,5 @@ export const Button = styled.button`
   border: none;
   background-color: transparent;
   height: 20px;
+  cursor: pointer;
 `;
