@@ -6,8 +6,8 @@ import { Container } from "./styled";
 const HomePage = () => (
   <Container>
     <Section
-      button={<ThemeButton />}
       photo={myPhoto}
+      button={<ThemeButton />}
       title="Tadeusz Waluga"
     />
   </Container>
