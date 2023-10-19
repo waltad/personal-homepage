@@ -1,3 +1,4 @@
+import HireMeButton from "../../common/hireMeButton";
 import Section from "../../common/section";
 import ThemeButton from "../../common/themeButton/index";
 import myPhoto from "./../../images/myPhoto.jpg";
@@ -7,9 +8,10 @@ const HomePage = () => (
   <Container>
     <Section
       photo={myPhoto}
-      button={<ThemeButton />}
+      themeButton={<ThemeButton />}
       prefix="THIS IS"
       title="Tadeusz Waluga"
+      hireMeButton={<HireMeButton />}
     />
   </Container>
 );

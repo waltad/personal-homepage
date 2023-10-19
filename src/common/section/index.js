@@ -2,25 +2,29 @@ import {
   Wrapper,
   Image,
   Title,
-  Button,
+  ThemeButton,
   StyledArticle,
   SmallText,
   StyledParagraf,
+  HireMeButton,
 } from "./styled";
 
-const Section = ({ photo, title, button, prefix }) => (
+const Section = ({ photo, title, themeButton, prefix, hireMeButton }) => (
   <Wrapper>
     <Image src={photo} alt="photo" />
     <StyledArticle>
-      <Button>
+      <ThemeButton>
         <SmallText>DARK MODE OFF</SmallText>
-        {button}
-      </Button>
+        {themeButton}
+      </ThemeButton>
       <SmallText>{prefix}</SmallText>
       <Title>{title}</Title>
       <StyledParagraf>
         👨🏻💻 I’m a passionate Frontend Developer in love with React, <br /> currently looking for new job opportunities.
       </StyledParagraf>
+      <HireMeButton>
+        {hireMeButton}
+      </HireMeButton>
     </StyledArticle>
   </Wrapper>
 );

@@ -28,7 +28,7 @@ export const Title = styled.h1`
   text-align: left;
 `;
 
-export const Button = styled.button`
+export const ThemeButton = styled.button`
   display: flex;
   gap: 12px;
   align-items: center;
@@ -51,4 +51,18 @@ export const StyledParagraf = styled.p`
   line-height: 1.4;
   font-weight: 400;
   color: ${({theme}) => theme.colors.chainGangGrey};
+`;
+
+export const HireMeButton = styled.button`
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  justify-self: start;
+
+  &:hover {
+    fill: white;
+    stroke: #8CC2FF;
+    stroke-width: 3px;
+    stroke-linejoin: round;
+  }
 `;
