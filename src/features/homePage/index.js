@@ -8,6 +8,7 @@ const HomePage = () => (
     <Section
       photo={myPhoto}
       button={<ThemeButton />}
+      prefix="THIS IS"
       title="Tadeusz Waluga"
     />
   </Container>
