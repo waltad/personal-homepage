@@ -1,12 +1,12 @@
-import { Wrapper, Image, Title, Button } from "./styled";
+import { Wrapper, Image, Title, Button, StyledArticle } from "./styled";
 
 const Section = ({ photo, title, button }) => (
   <Wrapper>
     <Image src={photo} alt="photo" />
-    <div>
+    <StyledArticle>
       <Button>DARK MODE OFF {button}</Button>
       <Title>{title}</Title>
-    </div>
+    </StyledArticle>
   </Wrapper>
 );
 
