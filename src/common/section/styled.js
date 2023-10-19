@@ -17,8 +17,9 @@ export const StyledArticle = styled.article`
   grid-column: 2;
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: auto 1fr;
+  grid-template-rows: auto auto auto 1fr;
 `;
+
 export const Title = styled.h1`
   font-size: 38px;
   font-weight: 900;
@@ -36,4 +37,18 @@ export const Button = styled.button`
   height: 26px;
   cursor: pointer;
   justify-self: end;
+`;
+
+export const SmallText = styled.span`
+  font-size: 12px;
+  line-height: 1.3;
+  font-weight: 700;
+  color: ${({theme}) => theme.colors.chainGangGrey};
+`;
+
+export const StyledParagraf = styled.p`
+  font-size: 20px;
+  line-height: 1.4;
+  font-weight: 400;
+  color: ${({theme}) => theme.colors.chainGangGrey};
 `;
