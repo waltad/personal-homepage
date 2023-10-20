@@ -11,6 +11,13 @@ const HomePage = () => (
       themeButton={<ThemeButton />}
       prefix="THIS IS"
       title="Tadeusz Waluga"
+      description={
+        <>
+          👨🏻💻 I’m a passionate Frontend Developer in love with React,
+          <br />
+          currently looking for new job opportunities.
+        </>
+      }
       hireMeButton={<HireMeButton />}
     />
   </Container>

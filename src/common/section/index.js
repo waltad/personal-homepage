@@ -9,7 +9,7 @@ import {
   HireMeButton,
 } from "./styled";
 
-const Section = ({ photo, title, themeButton, prefix, hireMeButton }) => (
+const Section = ({ photo, title, themeButton, prefix, description, hireMeButton }) => (
   <Wrapper>
     <Image src={photo} alt="photo" />
     <StyledArticle>
@@ -20,7 +20,7 @@ const Section = ({ photo, title, themeButton, prefix, hireMeButton }) => (
       <SmallText>{prefix}</SmallText>
       <Title>{title}</Title>
       <StyledParagraf>
-        👨🏻💻 I’m a passionate Frontend Developer in love with React, <br /> currently looking for new job opportunities.
+        {description}
       </StyledParagraf>
       <HireMeButton>
         {hireMeButton}
