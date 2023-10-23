@@ -60,9 +60,9 @@ export const HireMeButton = styled.button`
   justify-self: start;
 
   &:hover {
-    fill: white;
     stroke: #8CC2FF;
     stroke-width: 3px;
     stroke-linejoin: round;
+    stroke-opacity: 0.5;
   }
 `;
