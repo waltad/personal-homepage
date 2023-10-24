@@ -8,13 +8,6 @@ export const Wrapper = styled.section`
   gap: 115px;
 `;
 
-export const Image = styled.img`
-  grid-column: 1;
-  max-width: 384px;
-  height: auto;
-  border-radius: 50%;
-`;
-
 export const StyledArticle = styled.article`
   grid-column: 2;
   display: flex;

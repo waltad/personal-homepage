@@ -1,6 +1,5 @@
 import {
   Wrapper,
-  Image,
   Title,
   StyledArticle,
   SmallText,
@@ -9,7 +8,7 @@ import {
 
 const Section = ({ photo, title, themeButton, prefix, description, hireMeButton }) => (
   <Wrapper>
-    <Image src={photo} alt="photo" />
+    {photo}
     <StyledArticle>
       {themeButton}
       <SmallText>{prefix}</SmallText>

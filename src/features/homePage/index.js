@@ -1,14 +1,14 @@
 import HireMeButton from "../../common/hireMeButton";
+import Photo from "../../common/photo";
 import Section from "../../common/section";
 import ThemeButton from "../../common/themeButton/index";
-import myPhoto from "./../../images/myPhoto.jpg";
 import { Container } from "./styled";
 
 const HomePage = () => {
   return (
     <Container>
       <Section
-        photo={myPhoto}
+        photo={<Photo />}
         themeButton={<ThemeButton />}
         prefix="THIS IS"
         title="Tadeusz Waluga"
