@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const sunSlice = createSlice ({
+const sunSlice = createSlice({
   name: "sun",
   initialState: {
     isMoveRight: false,
@@ -12,10 +12,10 @@ const sunSlice = createSlice ({
   }
 });
 
-export const toggleSun = sunSlice.actions;
+export const { toggleSun } = sunSlice.actions;
 
 const selectSunState = state => state.sun;
 
-export const selectIsMoveRight = selectSunState.isMoveRight;
+export const selectIsMoveRight = state => selectSunState(state).isMoveRight;
 
 export default sunSlice.reducer;
