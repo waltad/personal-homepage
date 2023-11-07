@@ -3,7 +3,6 @@ import Sun from "./sun";
 import { Wrapper, Button, SmallText } from "./styled";
 import { useDispatch, useSelector } from "react-redux";
 import { selectIsThemeDark, toggleTheme } from "./themeSlice";
-import { Wrapper } from "../section/styled";
 
 const ThemeButton = () => {
   const isThemeDark = useSelector(selectIsThemeDark);
