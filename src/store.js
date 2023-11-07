@@ -1,9 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
-import sunReducer from "./common/themeButton/sun/sunSlice";
+import themeReducer from "./common/themeButton/themeSlice";
 
 const store = configureStore ({
   reducer: {
-    sun: sunReducer,
+    theme: themeReducer,
   },
 });
 
