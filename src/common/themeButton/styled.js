@@ -7,19 +7,18 @@ export const Wrapper = styled.div`
 
 export const Button = styled.button`
   display: flex;
-  align-self: flex-end;
-  column-gap: 12px;
+  justify-content: space-between;
+  padding: 0;
+  width: 160px;
   align-items: center;
   border: none;
   background: none;
-  /* height: 26px; */
   color: inherit;
   cursor: pointer;
   outline-offset: 8px;
 `;
 
 export const SmallText = styled.span`
-  width: 99px;
   text-align: right;
   font-size: 12px;
   line-height: 1.3;
