@@ -15,7 +15,6 @@ const HomePage = () => {
         description={
           <>
             👨🏻💻 I’m a passionate Frontend Developer in love with React,
-            <br />
             currently looking for new job opportunities.
           </>
         }
