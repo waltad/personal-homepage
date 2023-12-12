@@ -3,16 +3,19 @@ import styled from "styled-components";
 export const Wrapper = styled.section`
   margin-top: 116px;
   max-width: 1216px;
-  display: grid;
-  grid-template-columns: auto 1fr;
-  gap: 115px;
+  display: flex;
+  gap: 72px;
 `;
 
 export const StyledArticle = styled.article`
-  grid-column: 2;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
+`;
+
+export const StyledBox = styled.div`
+  display: flex;
+  flex-direction: column;
 `;
 
 export const Title = styled.h1`
