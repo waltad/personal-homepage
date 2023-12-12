@@ -5,4 +5,5 @@ export const StyledPhoto = styled.img`
   max-width: 384px;
   height: auto;
   border-radius: 50%;
+  flex-shrink: 0;
 `;
