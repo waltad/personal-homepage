@@ -23,5 +23,9 @@ export const SmallText = styled.span`
   font-size: 12px;
   line-height: 1.3;
   font-weight: 700;
-  color: ${({theme}) => theme.colors.chainGangGrey};
+  color: ${({ theme }) => theme.colors.chainGangGrey};
+
+  @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+    display: none;
+  }
 `;
