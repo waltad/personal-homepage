@@ -27,16 +27,25 @@ export const Title = styled.h1`
   align-self: left;
 `;
 
+export const Subtitle = styled.h2`
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  text-align: left;
+  align-self: left;
+`;
+
 export const SmallText = styled.span`
   font-size: 12px;
   line-height: 1.3;
   font-weight: 700;
-  color: ${({ theme }) => theme.colors.chainGangGrey};
+  color: ${({ theme }) => theme.colors.site.text};
 `;
 
 export const StyledParagraf = styled.p`
   font-size: 20px;
   line-height: 1.4;
   font-weight: 400;
-  color: ${({ theme }) => theme.colors.chainGangGrey};
+  color: ${({ theme }) => theme.colors.site.text};
 `;

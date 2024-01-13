@@ -1,13 +1,14 @@
 import {
   Wrapper,
   Title,
+  Subtitle,
   StyledArticle,
   StyledBox,
   SmallText,
   StyledParagraf,
 } from "./styled";
 
-const Section = ({ photo, title, themeButton, prefix, description, hireMeButton }) => (
+const Section = ({ photo, title, subtitle, themeButton, prefix, description, hireMeButton }) => (
   <Wrapper>
     {photo}
     <StyledArticle>
@@ -15,6 +16,7 @@ const Section = ({ photo, title, themeButton, prefix, description, hireMeButton 
       <StyledBox>
         <SmallText>{prefix}</SmallText>
         <Title>{title}</Title>
+        <Subtitle>{subtitle}</Subtitle>
         <StyledParagraf>
           {description}
         </StyledParagraf>
