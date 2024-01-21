@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
+import App from './core/App';
 import reportWebVitals from './reportWebVitals';
-import { GlobalStyles } from './GlobalStyles';
+import { GlobalStyles } from './core/App/GlobalStyles';
 import { Provider } from 'react-redux';
 import { ThemeProvider } from 'styled-components';
-import { themeLight as theme } from './theme';
+import { themeLight as theme } from './core/App/theme';
 import store from './store';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

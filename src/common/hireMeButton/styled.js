@@ -9,7 +9,7 @@ export const Button = styled.button`
 
   &:hover {
     fill-opacity: 80%;
-    stroke: #8CC2FF;
+    stroke: ${({ theme }) => theme.colors.buttonLink.shadow};
     stroke-width: 3px;
     stroke-linejoin: round;
     stroke-opacity: 0.5;

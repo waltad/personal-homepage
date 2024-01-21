@@ -52,3 +52,31 @@ export const themeLight = {
     },
   },
 };
+
+export const themeDark = {
+  ...common,
+  colors: {
+    primary: colorNames.blueRuin,
+    textPrimary: colorNames.nero,
+    site: {
+      background: colorNames.washMe,
+      text: colorNames.chainGangGrey,
+    },
+    buttonLink: {
+      text: colorNames.white,
+      bordre: colorNames.sparklingFrost,
+      shadow: colorNames.scenicWater,
+    },
+    boxBackground: colorNames.white,
+    headerline: colorNames.coldMorning,
+    title: {
+      border: colorNames.antiFlashWhite,
+      borderHover: colorNames.saltyIce,
+      header: colorNames.blueRuin,
+    },
+    themeSwitch: {
+      background: colorNames.coldMorning,
+      icon: colorNames.white,
+    },
+  },
+};
